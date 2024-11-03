@@ -15,12 +15,16 @@ const list = document.querySelector('#item-13')
 list.style.opacity = "30%"
 
 // 5. Modify the text of the 3rd item to read "Greetings!"
-const lists = document.querySelector('item-3')
+const lists = document.querySelector('#item-3')
 lists.innerText = "Greetings!"
 
 // 6. Update the image below the list to display the new image.
+const image = document.querySelector('img')
+image.src = "https://media.istockphoto.com/id/1470130937/photo/young-plants-growing-in-a-crack-on-a-concrete-footpath-conquering-adversity-concept.webp?b=1&s=170667a&w=0&k=20&c=IRaA17rmaWOJkmjU_KD29jZo4E6ZtG0niRpIXQN17fc="
+
 
 // 7. Resize the new image to a height of 250 pixels.
+image.style.height = "250px" 
 
 // 8. Integrate an additional image using innerHTML below the existing image.
 
